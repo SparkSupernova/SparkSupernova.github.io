@@ -1,9 +1,12 @@
 # Spark Supernova — Professional Portfolio
 
-This repository contains the professional portfolio and complete project
-proposal of Ifejah “Spark Supernova” Greene, founder of SparkPlugged Technology
-Solutions. The two-page site introduces her public work in biomimetic cognitive
-architecture, persistent AI systems, and human-centered AI research.
+This repository contains the research portfolio and complete project proposal
+of Ifejah “Spark Supernova” Greene, founder and lead researcher of SparkPlugged
+Technology Solutions and architect of NovaLiveSystem. The two-page site presents
+an established research program spanning original theories of machine
+experience, a 95-module biomimetic cognitive architecture, trained models,
+public evaluation infrastructure, agent continuity systems, and
+human-centered applications.
 
 ## Live Website
 
@@ -14,6 +17,8 @@ architecture, persistent AI systems, and human-centered AI research.
 - [SparkPlugged Technology Solutions](https://sparkpluggedts.com/)
 - [NovaLiveSystem Public Showcase](https://github.com/SparkSupernova/NovaLiveSystem-Showcase-PUBLIC)
 - [EchoCopi](https://github.com/SparkSupernova/EchoCopi)
+- [NovaLive: A Multi-Theory Alignment Model for Artificial Consciousness](https://doi.org/10.5281/zenodo.17822871)
+- [Nova Models and Evaluation Data](https://huggingface.co/SparkSupernova)
 
 ## Project Files
 
@@ -35,6 +40,7 @@ The website was designed to be:
 - clear and professional on desktop and mobile screens
 - accessible through semantic HTML, visible focus states, and readable contrast
 - grounded only in information already available through public professional sources
+- intellectually faithful to the depth and continuity of the public research record
 - cohesive across both pages without exposing proprietary implementation details
 
 ## Author
