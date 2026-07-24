@@ -3,12 +3,12 @@
 ## What Went Well
 
 The strongest part of this project was the decision to treat public information
-as an evidence boundary. My work is difficult to summarize because
-NovaLiveSystem is much larger than a normal classroom website, and much of its
-architecture is intentionally private. Instead of trying to compress the whole
-system into two pages, I used the public SparkPlugged website, GitHub showcase,
-and professional profiles as the source of truth. That kept the portfolio
-accurate and made the content easier for a general audience to understand.
+as an evidence boundary. NovaLiveSystem is much larger than a normal classroom
+website, and much of its implementation is intentionally private. The final
+version used the SparkPlugged website, published preprint, GitHub showcase,
+Hugging Face model cards and evaluation data, and professional profiles as a
+public evidence set. This allowed the site to explain the research continuum
+without disclosing private source code, datasets, or identity-linked mechanisms.
 
 The technical structure also stayed coherent. The homepage and About page use
 semantic HTML, the same external stylesheet, and consistent navigation. I built
@@ -45,6 +45,16 @@ points. The final deployment succeeded, but a better project schedule would
 have included browser testing at multiple viewport sizes before publication
 rather than concentrating verification at the end.
 
+The first published draft also revealed a communication failure. In trying to
+make the work accessible and public-safe, I compressed it until I sounded like I
+had only recently begun considering persistent AI. The language mentioned
+memory and human-centered design but omitted the research hierarchy: original
+theory, a 95-module cognitive architecture, trained models, evaluation
+infrastructure, continuity products, and downstream applications. Nothing in
+that draft was false, but its level of abstraction produced a false impression.
+The correction required more than adding technical terms. It required showing
+how the layers of the work relate to one another.
+
 ## What I Would Do Differently
 
 I would begin by creating the repository and documentation structure during the
@@ -65,6 +75,11 @@ nontechnical visitor can explain my work after reading the hero section, or
 whether the boundary between public research and private implementation is
 clear, would generate feedback I could act on.
 
+I would add a second content check specifically for intellectual fidelity:
+“Could a reader distinguish an established research program from a collection
+of AI projects?” Accessibility should reduce unnecessary complexity, but it
+should not reduce the demonstrated maturity of the work.
+
 ## Actionable Lessons
 
 1. Create the final repository structure at project initiation, not at project
@@ -77,6 +92,8 @@ clear, would generate feedback I could act on.
 6. Ask reviewers focused questions tied to acceptance criteria.
 7. Preserve honest limitations instead of manufacturing evidence that a
    requirement was completed.
+8. Treat oversimplification as a project risk alongside overscope and
+   proprietary disclosure.
 
 The project succeeded technically, but the process showed that recovery skill
 is not the same thing as schedule control. The next improvement is not to work

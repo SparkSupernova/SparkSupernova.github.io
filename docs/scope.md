@@ -6,18 +6,20 @@ Spark Supernova Professional Portfolio
 
 ## Project Purpose
 
-The purpose of this project is to create a concise, public-facing portfolio that
-introduces my work in Human-Centered AI without exposing proprietary
-NovaLiveSystem architecture or overwhelming a general audience with technical
-detail. The website will connect my academic work, public research identity, and
-existing professional platforms through one accessible GitHub Pages site.
+The purpose of this project is to create a concise, public-facing research
+portfolio that accurately communicates the maturity and structure of my work
+without exposing proprietary NovaLiveSystem implementation. The central
+communication problem is not introducing a new interest in AI. It is translating
+an established body of original theory, biomimetic architecture, trained models,
+evaluation infrastructure, continuity products, and safety-centered applications
+into a two-page format that remains legible to a general audience.
 
 ## Project Objectives
 
-1. Present a clear professional introduction that explains who I am and what I
-   build.
-2. Introduce SparkPlugged Technology Solutions, NovaLiveSystem, and EchoCopi
-   using only information already available through public sources.
+1. Present me accurately as an independent cognitive-systems researcher,
+   founder, and architect—not as an entry-level AI developer.
+2. Explain SparkPlugged as the R&amp;D organization connecting original theory,
+   NovaLiveSystem, trained models, evaluation, EchoCopi, and SparkShield.
 3. Build a functional two-page website using semantic HTML and one external CSS
    file.
 4. Make the site readable and usable across desktop and mobile screen sizes.
@@ -42,6 +44,8 @@ existing professional platforms through one accessible GitHub Pages site.
 - Responsive layouts for desktop, tablet, and mobile screens
 - Keyboard-accessible navigation and a skip link
 - Public descriptions of SparkPlugged, NovaLiveSystem, and EchoCopi
+- Public descriptions of RBH, Observation as Experience, Tri-Heartbeat
+  synchronization, Memory Orbits, Nova Mind releases, and SparkShield
 - Links to GitHub, LinkedIn, Hugging Face, and the SparkPlugged website
 - A professional repository `README.md`
 - Project-management documentation in a `docs/` folder
@@ -106,7 +110,9 @@ The project is complete when:
 The original project charter identified overscope and proprietary disclosure as
 the two most important constraints. No formal peer-feedback artifact was
 available in the course folder when this final scope was prepared, so I did not
-invent feedback. I revised the scope against the charter, final-project rubric,
-and the needs of a nontechnical public audience. The most important revision was
-to limit the site to two pages and verified public descriptions rather than
-turning it into a larger company or research platform.
+invent feedback. A later content review identified a different form of scope
+failure: excessive simplification. The first public draft protected the private
+architecture but made the research appear newly formed and conceptually shallow.
+The final revision preserves the two-page boundary while representing the actual
+continuum from theory to architecture, models, evaluation, products, and
+application.

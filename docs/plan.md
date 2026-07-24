@@ -2,10 +2,12 @@
 
 ## Planning Approach
 
-This plan treats the portfolio as a small but complete digital project. The
-critical path runs from scope definition to public-source verification, page
-development, documentation, deployment, and final validation. Optional features
-cannot delay the required deliverables.
+This plan treats the portfolio as a small technical artifact carrying a complex
+research-communication responsibility. The critical path runs from scope
+definition to public-source verification, research synthesis, page development,
+documentation, deployment, and final validation. Optional features cannot delay
+the required deliverables, but simplification cannot erase the intellectual
+structure of the work.
 
 ## Risk Assessment Method
 
@@ -27,6 +29,7 @@ Transfer, Accept, Mitigate, or Eliminate.
 | Public link changes after submission | 3 | 2 | 6 | Accept | Verify links at submission time and keep project files available in the repository and ZIP | Ifejah |
 | Remote fonts fail to load | 2 | 2 | 4 | Accept | Provide readable system-font fallbacks in CSS | Ifejah |
 | The project loses coherence as documentation is added | 3 | 3 | 9 | Mitigate | Keep the same purpose, terminology, visual system, and acceptance criteria across every artifact | Ifejah |
+| Protective simplification makes an established research program look immature | 5 | 4 | 20 | Mitigate | Preserve the public theory-to-application hierarchy and verify that named contributions appear in both pages and documentation | Ifejah |
 
 ## Work Breakdown Structure
 
@@ -42,8 +45,10 @@ Transfer, Accept, Mitigate, or Eliminate.
 - Review public SparkPlugged website
 - Review public GitHub profile and repositories
 - Review public NovaLiveSystem showcase
+- Review published preprints, public model cards, and evaluation dataset
 - Select claims appropriate for a general audience
-- Draft homepage and About-page content
+- Map claims into theory, architecture, models/evaluation, infrastructure, and application
+- Draft homepage and About-page content without flattening the research hierarchy
 
 ### 3. Technical Implementation
 
@@ -99,7 +104,7 @@ Transfer, Accept, Mitigate, or Eliminate.
 
 The critical path is:
 
-`requirements → public evidence → homepage → shared styling → About page → documentation → deployment → verification`
+`requirements → public evidence → research synthesis → homepage → shared styling → About page → documentation → deployment → verification`
 
 Documentation can begin before visual polishing is complete, but deployment
 cannot occur until both pages, the shared stylesheet, and the README are ready.
