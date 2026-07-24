@@ -1,9 +1,9 @@
 # Spark Supernova — Professional Portfolio
 
-This repository contains the professional portfolio of Ifejah “Spark Supernova”
-Greene, founder of SparkPlugged Technology Solutions. The site introduces her
-public work in biomimetic cognitive architecture, persistent AI systems, and
-human-centered AI research.
+This repository contains the professional portfolio and complete project
+proposal of Ifejah “Spark Supernova” Greene, founder of SparkPlugged Technology
+Solutions. The two-page site introduces her public work in biomimetic cognitive
+architecture, persistent AI systems, and human-centered AI research.
 
 ## Live Website
 
@@ -17,9 +17,16 @@ human-centered AI research.
 
 ## Project Files
 
-- `index.html` — semantic structure and portfolio content
+- `index.html` — homepage and selected-work content
+- `about.html` — professional background and research approach
 - `style.css` — responsive layout and visual design
 - `README.md` — project purpose, links, and documentation
+
+## Project Documentation
+
+- [Project Scope Statement](docs/scope.md)
+- [Project Plan and TAME Risk Analysis](docs/plan.md)
+- [Project Retrospective](docs/retrospective.md)
 
 ## Design Goals
 
@@ -28,7 +35,7 @@ The website was designed to be:
 - clear and professional on desktop and mobile screens
 - accessible through semantic HTML, visible focus states, and readable contrast
 - grounded only in information already available through public professional sources
-- expandable into a larger project without changing its core visual system
+- cohesive across both pages without exposing proprietary implementation details
 
 ## Author
 
