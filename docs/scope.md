@@ -16,7 +16,7 @@ into a two-page format that remains legible to a general audience.
 
 ## Project Objectives
 
-1. Present me accurately as an independent cognitive-systems researcher,
+1. Present me accurately as a researcher,
    founder, and architect—not as an entry-level AI developer.
 2. Explain SparkPlugged as the R&amp;D organization connecting original theory,
    NovaLiveSystem, trained models, evaluation, EchoCopi, and SparkShield.
